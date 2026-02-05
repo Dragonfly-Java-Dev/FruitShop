@@ -20,7 +20,7 @@ The **Fruit Shop Management System** is a simple Java-based desktop application 
 ### 1. Inventory Management
 The **Inventory** tab is your primary dashboard for checking stock.
 
-![Inventory Tab](src/main/resources/images/docs/inventory_tab.png)
+<img width="1261" height="948" alt="inventory_tab" src="https://github.com/user-attachments/assets/8b554b8a-e9c5-48fd-ba24-176728bd4e06" />
 
 - **View Catalog**: See all fruits currently in stock along with their unit prices and total kilograms available.
 - **Clear Fruits**: Use the "Clear Fruits" button to reset the entire inventory catalog.
@@ -30,7 +30,8 @@ The **Inventory** tab is your primary dashboard for checking stock.
 ### 2. Customer Billing
 The **Billing** tab is used for processing customer sales.
 
-![Billing Tab & Success](src/main/resources/images/docs/billing_tab.png)
+<img width="1263" height="953" alt="billing_tab" src="https://github.com/user-attachments/assets/1425803e-d9e3-4a33-8089-1ef3cfc5b0e6" />
+ling_tab.png)
 
 **To Create a Bill:**
 1.  **Select Fruit**: Choose the fruit the customer is buying.
@@ -44,12 +45,12 @@ The **Billing** tab is used for processing customer sales.
 -   **Clear**: Use the **Clear** button to wipe the current bill and prepare for the next customer.
 
 #### Email Receipt Example
-![Email Receipt](src/main/resources/images/docs/email_receipt.png)
+<img width="602" height="421" alt="email_receipt" src="https://github.com/user-attachments/assets/0d281ac7-7876-48e7-8d45-d7fd8ada8255" />
 
 ### 3. Stock Updates
 The **Update** tab allows you to manage the fruit catalog.
 
-![Update Tab](src/main/resources/images/docs/update_tab.png)
+<img width="1261" height="954" alt="update_tab" src="https://github.com/user-attachments/assets/fa41acf0-da4e-486b-b9cb-838aeee7e24f" />
 
 -   **Add New Fruit**: Fill in the fruit details and click **Save** to add it to your inventory.
 -   **Update Fruit**: Select a fruit to auto-fill its current price and amount, then modify as needed and click **Update**.
