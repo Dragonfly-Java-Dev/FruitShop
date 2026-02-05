@@ -31,7 +31,6 @@ The **Inventory** tab is your primary dashboard for checking stock.
 The **Billing** tab is used for processing customer sales.
 
 <img width="1263" height="953" alt="billing_tab" src="https://github.com/user-attachments/assets/1425803e-d9e3-4a33-8089-1ef3cfc5b0e6" />
-ling_tab.png)
 
 **To Create a Bill:**
 1.  **Select Fruit**: Choose the fruit the customer is buying.
