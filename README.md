@@ -1,7 +1,8 @@
-# Fruit Shop Management System - User Manual
+# Fruit Shop Management System
 
 ## Introduction
-Welcome to the **Fruit Shop Management System**! This application is designed to help you manage your shop's inventory and billing efficiently. With its intuitive interface, you can track stock levels, calculate customer bills, and even send digital receipts via email, all from one central location.
+The **Fruit Shop Management System** is a simple Java-based desktop application for managing a fruit shop. It allows you to track stock, calculate bills, and email receipts to customers. 
+
 
 ---
 
