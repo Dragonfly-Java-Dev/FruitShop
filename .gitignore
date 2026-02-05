@@ -1,0 +1,25 @@
+# Maven build output
+target/
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+bin/
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Sensitive configuration
+src/main/resources/config.properties
+
+# Logs
+*.log
+docs/
