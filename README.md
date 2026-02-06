@@ -14,8 +14,6 @@ The **Fruit Shop Management System** is a simple Java-based desktop application 
 - **Real-time Inventory Tracking**: Instantly view available fruit stock and prices.
 - **Dynamic Billing System**: Calculate totals for multiple items with automatically updated unit prices.
 - **Digitized Receipts**: Send bills directly to customer emails for a paperless experience.
-- **Stock Management**: Easily add new fruits, update existing prices, or remove items from the catalog.
-- **Global Synchronization**: Changes made in any part of the system are reflected across all tabs immediately.
 
 ---
 
