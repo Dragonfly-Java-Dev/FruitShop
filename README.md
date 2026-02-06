@@ -3,6 +3,10 @@
 ## Introduction
 The **Fruit Shop Management System** is a simple Java-based desktop application for managing a fruit shop. It allows you to track stock, calculate bills, and email receipts to customers. 
 
+## Techstack
+- **VS Code**
+- **MySQL Workbench**
+- **Figma -Interface design**
 
 ---
 
