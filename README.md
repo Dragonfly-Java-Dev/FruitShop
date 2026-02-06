@@ -1,19 +1,46 @@
-# Fruit Shop Management System
+# 🍎 Dragonfly Fruit Shop POS System
 
-## Introduction
-The **Fruit Shop Management System** is a simple Java-based desktop application for managing a fruit shop. It allows you to track stock, calculate bills, and email receipts to customers. 
+**A comprehensive Point of Sale (POS) and Inventory Management System built for small-scale fruit shops.**
 
-## Techstack
-- **VS Code**
-- **MySQL Workbench**
-- **Figma -Interface design**
+This desktop application allows shop owners to manage stock, process sales, generate invoices, and automatically send digital receipts to customers via email. It is packaged as a standalone Windows executable (`.exe`) for easy deployment.
+
+## 🛠️ Technology Stack
+
+### Core Technologies
+* **Language:** Java (JDK 17 / 1.8)
+* **Build Tool:** Apache Maven
+* **Database:** MySQL Server 8.0
+* **IDE:** Visual Studio Code
+
+### Frontend (Java Swing)
+The Graphical User Interface is built using standard Swing components:
+* **Containers:** `JFrame`, `JPanel`
+* **Data Display:** `JTable`, `DefaultTableModel`
+* **Inputs:** `JTextField`, `JComboBox`
+* **Controls:** `JButton`, `JScrollPane`
+* **Notifications:** `JOptionPane` (Custom alerts for Success/Error/Warning)
+
+### Backend & Libraries
+Managed via `pom.xml`:
+* **Database Connectivity:** `mysql-connector-j` (v8.3.0)
+* **Email Service:** `javax.mail` (v1.6.2) - *Powered by com.sun.mail*
+* **Build Plugin:** `maven-shade-plugin` (v3.5.0) - *Used to create the Fat JAR*
+
+### Deployment
+* **Wrapper Tool:** **Launch4j** (v3.50)
+* **Output:** Native Windows Executable (`.exe`)
+* **Configuration:** Custom `.ico` integration and automatic JRE detection.
 
 ---
 
-## Key Features
-- **Real-time Inventory Tracking**: Instantly view available fruit stock and prices.
-- **Dynamic Billing System**: Calculate totals for multiple items with automatically updated unit prices.
-- **Digitized Receipts**: Send bills directly to customer emails for a paperless experience.
+## 🚀 Features
+
+* **🛒 Billing System:** Real-time bill calculation with a "Select & Add" interface.
+* **📧 Digital Receipts:** Automatically sends a professional HTML-formatted receipt to the customer's email using **JavaMail API**.
+* **📦 Inventory Management:** Full CRUD (Create, Read, Update, Delete) capabilities to manage fruit stock, prices, and quantities.
+* **📊 Live Data:** Dynamic inventory tracking connected to a **MySQL** database.
+* **🖥️ User-Friendly GUI:** Clean, tabbed interface built with **Java Swing**.
+* **💿 Portable Deployment:** Distributed as a native Windows `.exe` file with a custom icon.
 
 ---
 
